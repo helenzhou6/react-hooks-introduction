@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: lightslategray;
+}
+
+.button {
+  border: 2px solid lightblue;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: black;
+  background-color: lightblue;
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  border: 2px solid blue;
+  color: blue;
+}
+
+.button-container,
+h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
